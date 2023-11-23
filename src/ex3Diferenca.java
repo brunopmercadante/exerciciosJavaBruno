@@ -7,9 +7,13 @@ public class ex3Diferenca {
         //de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
         Scanner teclado = new Scanner(System.in);
         int a,b,c,d, diferenca;
+        System.out.println("Digite o valor de a");
         a = teclado.nextInt();
+        System.out.println("Digite o valor de b");
         b = teclado.nextInt();
+        System.out.println("Digite o valor de c");
         c = teclado.nextInt();
+        System.out.println("Digite o valor de d");
         d = teclado.nextInt();
 diferenca = (a*b - c*d);
         System.out.println("Diferença é igual a " + diferenca);

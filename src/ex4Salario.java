@@ -13,8 +13,11 @@ public class ex4Salario {
         int numero,horasTrabalhadas;
         double salario, valorHora;
 
+        System.out.println("Digite o número do funcionário:");
         numero = teclado.nextInt();
+        System.out.println("Digite o número de horas trabalhadas:");
         horasTrabalhadas = teclado.nextInt();
+        System.out.println("Digite o valor da hora trabalhada:");
         valorHora = teclado.nextDouble();
 
         salario = horasTrabalhadas*valorHora;

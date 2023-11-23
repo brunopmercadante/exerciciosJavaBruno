@@ -8,11 +8,17 @@ public class ex5ValorPecas {
         Scanner teclado = new Scanner(System.in);
         int codigo1,codigo2,numero1,numero2;
         double valor1,valor2,total;
+        System.out.println("Digite o código da peça tipo 1:");
         codigo1 = teclado.nextInt();
+        System.out.println("Digite o número de peças tipo 1: ");
         numero1 = teclado.nextInt();
+        System.out.println("Digite o valor de cada peça tipo 1:");
         valor1 = teclado.nextDouble();
+        System.out.println("Digite o código da peça tipo 2:");
         codigo2 = teclado.nextInt();
+        System.out.println("Digite o número de peças tipo 2:");
         numero2 = teclado.nextInt();
+        System.out.println("Digite o valor de cada peça tipo 2:");
         valor2 = teclado.nextDouble();
         total = valor1*numero1 + valor2 * numero2;
         System.out.printf("O valor total a pagar é de R$ %.2f",total);

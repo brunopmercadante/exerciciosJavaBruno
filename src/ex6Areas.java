@@ -11,8 +11,11 @@ public class ex6Areas {
         Scanner teclado = new Scanner(System.in);
         double a,b,c,areaTriangulo,areaCirculo,areaTrapezio,areaQuadrado,areaRetangulo,pi;
         pi = 3.14159;
+        System.out.println("Digite o valor de A:");
         a = teclado.nextDouble();
+        System.out.println("Digite o valor de B:");
         b = teclado.nextDouble();
+        System.out.println("Digite o valor de C:");
         c = teclado.nextDouble();
         areaTriangulo = a*c/2;
         areaCirculo = pi*c*c;
