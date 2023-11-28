@@ -9,9 +9,9 @@ public class Main {
         System.out.println("Digite a quantidade de produtos");
         quantidade = teclado.nextInt();
         double valorTotal;
-
+valorTotal = codigo * quantidade;
      if (codigo == 1){
-         valorTotal = quantidade*4.0;
+         valorTotal = quantidade*4;
      }
     else if (codigo == 2){
          valorTotal = quantidade*4.50;
