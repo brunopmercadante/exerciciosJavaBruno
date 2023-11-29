@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class exCalculadoraSoma {
+public class ex02CalculadoraSoma {
     public static void main(String[] args) {
         int a,b,c;
         Scanner teclado = new Scanner(System.in);

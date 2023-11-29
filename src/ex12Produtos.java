@@ -9,7 +9,7 @@ public class ex12Produtos {
         System.out.println("Digite a quantidade de produtos");
         quantidade = teclado.nextInt();
         double valorTotal;
-
+        valorTotal = 10;
         if (codigo == 1){
             valorTotal = quantidade*4.0;
         }

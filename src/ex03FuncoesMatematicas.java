@@ -1,5 +1,4 @@
-import java.util.Scanner;
-public class exFuncoesMatematicas {
+public class ex03FuncoesMatematicas {
         public static void main(String[] args) {
             double x = 9.0;
             double y = 4.0;

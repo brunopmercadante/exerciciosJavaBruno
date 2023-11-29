@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class exAreaTerreno {
+public class ex01AreaTerreno {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner teclado = new Scanner(System.in);
