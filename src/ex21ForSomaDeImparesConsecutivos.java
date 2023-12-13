@@ -26,8 +26,8 @@ public class ex21ForSomaDeImparesConsecutivos {
             if (i % 2 != 0){
                 soma = soma + i;
             }
-            System.out.println(soma);
         }
+        System.out.println(soma);
         teclado.close();
     }
 }
